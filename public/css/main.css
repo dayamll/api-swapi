@@ -1,0 +1,41 @@
+
+@font-face {
+  font-family: jedi;
+  src: url(../assets/fonts/Starjedi.ttf)
+}
+
+@font-face {
+  font-family: jedi-outline;
+  src: url(../assets/fonts/Starjhol.ttf)
+}
+
+@font-face {
+  font-family: biko;
+  src: url(../assets/fonts/Biko_Regular.otf)
+}
+
+html {
+  font-family: biko;
+}
+
+.title {
+  font-family: jedi-outline;
+  font-size: 2em;
+}
+
+.tc-yellow-400 {
+  color: #FFEE58!important;
+}
+
+.stars {
+  background: url(http://www.script-tutorials.com/demos/360/images/stars.png) top center #000;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: -1;
+}
+
+.margin-sm {
+  margin: 1.2rem 0.5rem;
+}
